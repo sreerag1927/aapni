@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         self.view.isHidden = true
         super.viewDidLoad()
+        //tst
     }
     override func viewDidAppear(_ animated: Bool) {
         if(UserDefaults.standard.value(forKey: "isSignin") != nil){
