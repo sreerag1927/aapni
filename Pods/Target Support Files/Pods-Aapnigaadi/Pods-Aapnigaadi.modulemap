@@ -1,0 +1,6 @@
+module Pods_Aapnigaadi {
+  umbrella header "Pods-Aapnigaadi-umbrella.h"
+
+  export *
+  module * { export * }
+}

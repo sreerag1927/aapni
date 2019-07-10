@@ -10,11 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var tabBar: UITabBar!
     override func viewDidLoad() {
+        self.view.isHidden = true
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    override func viewDidAppear(_ animated: Bool) {
+        if(UserDefaults.standard.value(forKey: "isSignin") != nil){
+            if(UserDefaults.standard.value(forKey: "isSignin") as! Bool){
+                self.view.isHidden = false
+            }else{
+                let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "loginViewController") as! loginViewController
+                self.present(vc, animated: true, completion: nil)
+            }
+        }else{
+            self.view.isHidden = false
+        }
+    }
+    @IBAction func profileBtnPrsd(_ sender: UIButton) {
+    }
+    @IBAction func moreBtnPrsd(_ sender: UIButton) {
+    }
 }
 

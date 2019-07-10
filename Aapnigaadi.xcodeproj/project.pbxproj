@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78F8FAEE112B4E3947D64EF5 /* libPods-Aapnigaadi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17524F12A05DF5D2F808F24 /* libPods-Aapnigaadi.a */; };
+		CA784A2522D38FB600F74B12 /* loginbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA784A2422D38FB600F74B12 /* loginbg.jpg */; };
+		CA784A2B22D3913600F74B12 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = CA784A2622D3913500F74B12 /* profile.png */; };
+		CA784A2C22D3913600F74B12 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = CA784A2722D3913500F74B12 /* mail.png */; };
+		CA784A2D22D3913600F74B12 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = CA784A2822D3913600F74B12 /* user.png */; };
+		CA784A2E22D3913600F74B12 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = CA784A2922D3913600F74B12 /* password.png */; };
+		CA784A2F22D3913600F74B12 /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = CA784A2A22D3913600F74B12 /* mobile.png */; };
+		CA784A3122D3932400F74B12 /* logo-app.png in Resources */ = {isa = PBXBuildFile; fileRef = CA784A3022D3932400F74B12 /* logo-app.png */; };
+		CA784A3322D3AA3E00F74B12 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA784A3222D3AA3E00F74B12 /* BaseViewController.swift */; };
 		CA8054B422CD260200E89D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8054B322CD260200E89D0A /* AppDelegate.swift */; };
 		CA8054B622CD260200E89D0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8054B522CD260200E89D0A /* ViewController.swift */; };
 		CA8054B922CD260200E89D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8054B722CD260200E89D0A /* Main.storyboard */; };
@@ -14,6 +23,25 @@
 		CA8054BE22CD260800E89D0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8054BC22CD260800E89D0A /* LaunchScreen.storyboard */; };
 		CA8054C922CD260900E89D0A /* AapnigaadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8054C822CD260900E89D0A /* AapnigaadiTests.swift */; };
 		CA8054D422CD260900E89D0A /* AapnigaadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8054D322CD260900E89D0A /* AapnigaadiUITests.swift */; };
+		CA8054E322CD26E600E89D0A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8054E222CD26E600E89D0A /* 1.jpg */; };
+		CA893CB222D508DF00014612 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA893CB122D508DF00014612 /* loginViewController.swift */; };
+		CA893CB422D50F2400014612 /* forgetpassword.png in Resources */ = {isa = PBXBuildFile; fileRef = CA893CB322D50F2400014612 /* forgetpassword.png */; };
+		CA9B98DC22D6530100A1B65B /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B98DB22D6530100A1B65B /* user.swift */; };
+		CA9B98DF22D65C0400A1B65B /* airport_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98DD22D65C0400A1B65B /* airport_white.png */; };
+		CA9B98E022D65C0400A1B65B /* airport.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98DE22D65C0400A1B65B /* airport.png */; };
+		CA9B98E722D65C1C00A1B65B /* location-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98E122D65C1B00A1B65B /* location-1.png */; };
+		CA9B98E822D65C1C00A1B65B /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98E222D65C1B00A1B65B /* location.png */; };
+		CA9B98E922D65C1C00A1B65B /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98E322D65C1B00A1B65B /* menu.png */; };
+		CA9B98EA22D65C1C00A1B65B /* normal-trip-white.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98E422D65C1B00A1B65B /* normal-trip-white.png */; };
+		CA9B98EB22D65C1C00A1B65B /* icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98E522D65C1C00A1B65B /* icon1.png */; };
+		CA9B98EC22D65C1C00A1B65B /* normal-trip.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98E622D65C1C00A1B65B /* normal-trip.png */; };
+		CA9B98F222D65C3B00A1B65B /* offers.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98ED22D65C3B00A1B65B /* offers.png */; };
+		CA9B98F322D65C3B00A1B65B /* outstation_white.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98EE22D65C3B00A1B65B /* outstation_white.png */; };
+		CA9B98F422D65C3B00A1B65B /* outstation.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98EF22D65C3B00A1B65B /* outstation.png */; };
+		CA9B98F522D65C3B00A1B65B /* offer_2.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98F022D65C3B00A1B65B /* offer_2.png */; };
+		CA9B98F622D65C3B00A1B65B /* offer_1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA9B98F122D65C3B00A1B65B /* offer_1.png */; };
+		CAAAD16F22CE73B600F5D468 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAAD16E22CE73B600F5D468 /* registerViewController.swift */; };
+		CAAAD17122CE812A00F5D468 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = CAAAD17022CE812A00F5D468 /* podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C970B45969FD6DD8572AEBC /* Pods-Aapnigaadi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aapnigaadi.release.xcconfig"; path = "Target Support Files/Pods-Aapnigaadi/Pods-Aapnigaadi.release.xcconfig"; sourceTree = "<group>"; };
+		B17524F12A05DF5D2F808F24 /* libPods-Aapnigaadi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aapnigaadi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA784A2422D38FB600F74B12 /* loginbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginbg.jpg; sourceTree = "<group>"; };
+		CA784A2622D3913500F74B12 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		CA784A2722D3913500F74B12 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		CA784A2822D3913600F74B12 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		CA784A2922D3913600F74B12 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		CA784A2A22D3913600F74B12 /* mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile.png; sourceTree = "<group>"; };
+		CA784A3022D3932400F74B12 /* logo-app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-app.png"; sourceTree = "<group>"; };
+		CA784A3222D3AA3E00F74B12 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CA8054B022CD260200E89D0A /* Aapnigaadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aapnigaadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8054B322CD260200E89D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA8054B522CD260200E89D0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +85,26 @@
 		CA8054CF22CD260900E89D0A /* AapnigaadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AapnigaadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8054D322CD260900E89D0A /* AapnigaadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AapnigaadiUITests.swift; sourceTree = "<group>"; };
 		CA8054D522CD260900E89D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8054E222CD26E600E89D0A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CA893CB122D508DF00014612 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		CA893CB322D50F2400014612 /* forgetpassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forgetpassword.png; sourceTree = "<group>"; };
+		CA9B98DB22D6530100A1B65B /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		CA9B98DD22D65C0400A1B65B /* airport_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airport_white.png; sourceTree = "<group>"; };
+		CA9B98DE22D65C0400A1B65B /* airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airport.png; sourceTree = "<group>"; };
+		CA9B98E122D65C1B00A1B65B /* location-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-1.png"; sourceTree = "<group>"; };
+		CA9B98E222D65C1B00A1B65B /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		CA9B98E322D65C1B00A1B65B /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		CA9B98E422D65C1B00A1B65B /* normal-trip-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal-trip-white.png"; sourceTree = "<group>"; };
+		CA9B98E522D65C1C00A1B65B /* icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1.png; sourceTree = "<group>"; };
+		CA9B98E622D65C1C00A1B65B /* normal-trip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normal-trip.png"; sourceTree = "<group>"; };
+		CA9B98ED22D65C3B00A1B65B /* offers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offers.png; sourceTree = "<group>"; };
+		CA9B98EE22D65C3B00A1B65B /* outstation_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outstation_white.png; sourceTree = "<group>"; };
+		CA9B98EF22D65C3B00A1B65B /* outstation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outstation.png; sourceTree = "<group>"; };
+		CA9B98F022D65C3B00A1B65B /* offer_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer_2.png; sourceTree = "<group>"; };
+		CA9B98F122D65C3B00A1B65B /* offer_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offer_1.png; sourceTree = "<group>"; };
+		CAAAD16E22CE73B600F5D468 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		CAAAD17022CE812A00F5D468 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		DCEDE073CF5B25CE52FEBE88 /* Pods-Aapnigaadi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aapnigaadi.debug.xcconfig"; path = "Target Support Files/Pods-Aapnigaadi/Pods-Aapnigaadi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F8FAEE112B4E3947D64EF5 /* libPods-Aapnigaadi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +133,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		388E87B6F47DD0621CA70FA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDE073CF5B25CE52FEBE88 /* Pods-Aapnigaadi.debug.xcconfig */,
+				4C970B45969FD6DD8572AEBC /* Pods-Aapnigaadi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		58EF20ECF12E5364571CB398 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B17524F12A05DF5D2F808F24 /* libPods-Aapnigaadi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA8054A722CD260100E89D0A = {
 			isa = PBXGroup;
 			children = (
+				CAAAD17022CE812A00F5D468 /* podfile */,
 				CA8054B222CD260200E89D0A /* Aapnigaadi */,
 				CA8054C722CD260900E89D0A /* AapnigaadiTests */,
 				CA8054D222CD260900E89D0A /* AapnigaadiUITests */,
 				CA8054B122CD260200E89D0A /* Products */,
+				388E87B6F47DD0621CA70FA3 /* Pods */,
+				58EF20ECF12E5364571CB398 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +177,16 @@
 			isa = PBXGroup;
 			children = (
 				CA8054B322CD260200E89D0A /* AppDelegate.swift */,
+				CA9B98DB22D6530100A1B65B /* user.swift */,
+				CA8054E122CD26BC00E89D0A /* Asset */,
 				CA8054B522CD260200E89D0A /* ViewController.swift */,
+				CA893CB122D508DF00014612 /* loginViewController.swift */,
+				CA784A3222D3AA3E00F74B12 /* BaseViewController.swift */,
 				CA8054B722CD260200E89D0A /* Main.storyboard */,
 				CA8054BA22CD260800E89D0A /* Assets.xcassets */,
 				CA8054BC22CD260800E89D0A /* LaunchScreen.storyboard */,
 				CA8054BF22CD260800E89D0A /* Info.plist */,
+				CAAAD16E22CE73B600F5D468 /* registerViewController.swift */,
 			);
 			path = Aapnigaadi;
 			sourceTree = "<group>";
@@ -125,6 +209,35 @@
 			path = AapnigaadiUITests;
 			sourceTree = "<group>";
 		};
+		CA8054E122CD26BC00E89D0A /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				CA9B98F122D65C3B00A1B65B /* offer_1.png */,
+				CA9B98F022D65C3B00A1B65B /* offer_2.png */,
+				CA9B98ED22D65C3B00A1B65B /* offers.png */,
+				CA9B98EE22D65C3B00A1B65B /* outstation_white.png */,
+				CA9B98EF22D65C3B00A1B65B /* outstation.png */,
+				CA9B98E522D65C1C00A1B65B /* icon1.png */,
+				CA9B98E122D65C1B00A1B65B /* location-1.png */,
+				CA9B98E222D65C1B00A1B65B /* location.png */,
+				CA9B98E322D65C1B00A1B65B /* menu.png */,
+				CA9B98E422D65C1B00A1B65B /* normal-trip-white.png */,
+				CA9B98E622D65C1C00A1B65B /* normal-trip.png */,
+				CA9B98DD22D65C0400A1B65B /* airport_white.png */,
+				CA9B98DE22D65C0400A1B65B /* airport.png */,
+				CA893CB322D50F2400014612 /* forgetpassword.png */,
+				CA784A3022D3932400F74B12 /* logo-app.png */,
+				CA784A2722D3913500F74B12 /* mail.png */,
+				CA784A2A22D3913600F74B12 /* mobile.png */,
+				CA784A2922D3913600F74B12 /* password.png */,
+				CA784A2622D3913500F74B12 /* profile.png */,
+				CA784A2822D3913600F74B12 /* user.png */,
+				CA784A2422D38FB600F74B12 /* loginbg.jpg */,
+				CA8054E222CD26E600E89D0A /* 1.jpg */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA8054D822CD260900E89D0A /* Build configuration list for PBXNativeTarget "Aapnigaadi" */;
 			buildPhases = (
+				2D6E4AE2445196B02EFC96DF /* [CP] Check Pods Manifest.lock */,
 				CA8054AC22CD260200E89D0A /* Sources */,
 				CA8054AD22CD260200E89D0A /* Frameworks */,
 				CA8054AE22CD260200E89D0A /* Resources */,
@@ -230,8 +344,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8054BE22CD260800E89D0A /* LaunchScreen.storyboard in Resources */,
+				CA8054E322CD26E600E89D0A /* 1.jpg in Resources */,
+				CA9B98EA22D65C1C00A1B65B /* normal-trip-white.png in Resources */,
+				CA9B98F522D65C3B00A1B65B /* offer_2.png in Resources */,
+				CA9B98F422D65C3B00A1B65B /* outstation.png in Resources */,
+				CA9B98E922D65C1C00A1B65B /* menu.png in Resources */,
+				CA9B98F222D65C3B00A1B65B /* offers.png in Resources */,
+				CA784A2E22D3913600F74B12 /* password.png in Resources */,
+				CA9B98E022D65C0400A1B65B /* airport.png in Resources */,
+				CA784A2D22D3913600F74B12 /* user.png in Resources */,
+				CAAAD17122CE812A00F5D468 /* podfile in Resources */,
 				CA8054BB22CD260800E89D0A /* Assets.xcassets in Resources */,
+				CA784A3122D3932400F74B12 /* logo-app.png in Resources */,
+				CA9B98E722D65C1C00A1B65B /* location-1.png in Resources */,
+				CA9B98DF22D65C0400A1B65B /* airport_white.png in Resources */,
+				CA784A2522D38FB600F74B12 /* loginbg.jpg in Resources */,
+				CA9B98E822D65C1C00A1B65B /* location.png in Resources */,
 				CA8054B922CD260200E89D0A /* Main.storyboard in Resources */,
+				CA9B98EC22D65C1C00A1B65B /* normal-trip.png in Resources */,
+				CA893CB422D50F2400014612 /* forgetpassword.png in Resources */,
+				CA784A2C22D3913600F74B12 /* mail.png in Resources */,
+				CA784A2B22D3913600F74B12 /* profile.png in Resources */,
+				CA9B98F622D65C3B00A1B65B /* offer_1.png in Resources */,
+				CA9B98EB22D65C1C00A1B65B /* icon1.png in Resources */,
+				CA9B98F322D65C3B00A1B65B /* outstation_white.png in Resources */,
+				CA784A2F22D3913600F74B12 /* mobile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +388,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D6E4AE2445196B02EFC96DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aapnigaadi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CA8054AC22CD260200E89D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAAD16F22CE73B600F5D468 /* registerViewController.swift in Sources */,
+				CA784A3322D3AA3E00F74B12 /* BaseViewController.swift in Sources */,
+				CA9B98DC22D6530100A1B65B /* user.swift in Sources */,
 				CA8054B622CD260200E89D0A /* ViewController.swift in Sources */,
 				CA8054B422CD260200E89D0A /* AppDelegate.swift in Sources */,
+				CA893CB222D508DF00014612 /* loginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +596,13 @@
 		};
 		CA8054D922CD260900E89D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEDE073CF5B25CE52FEBE88 /* Pods-Aapnigaadi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJPS543J6R;
 				INFOPLIST_FILE = Aapnigaadi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,17 +610,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Aapnigaadi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CA8054DA22CD260900E89D0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C970B45969FD6DD8572AEBC /* Pods-Aapnigaadi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GJPS543J6R;
 				INFOPLIST_FILE = Aapnigaadi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +630,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Aapnigaadi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
