@@ -8,7 +8,8 @@
 
 import UIKit
 import Alamofire
-class loginViewController: BaseViewController {
+@available(iOS 10.0, *)
+class loginViewController: BaseViewController,UIGestureRecognizerDelegate {
 
     @IBOutlet weak var middleView: UIView!
     @IBOutlet weak var scroll_view: UIScrollView!
@@ -97,6 +98,16 @@ class loginViewController: BaseViewController {
             }
         }
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
+        if((activeTextField) != nil){
+            activeTextField.resignFirstResponder()
+        }
+    }
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?){}
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?){}
+    
+    override func touchesEstimatedPropertiesUpdated(_ touches: Set<UITouch>){}
     @IBAction func forgotPassBtnPrsd(_ sender: UIButton) {
     }
     @IBAction func logInBtnPrsd(_ sender: UIButton) {
@@ -137,6 +148,7 @@ class loginViewController: BaseViewController {
     }
   
 }
+@available(iOS 10.0, *)
 extension loginViewController:UITextFieldDelegate{
     public func textFieldDidBeginEditing(_ textField: UITextField){
         activeTextField = textField
@@ -165,17 +177,5 @@ extension loginViewController:UITextFieldDelegate{
         }
     }
 }
-extension loginViewController:UIGestureRecognizerDelegate{
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
-        if((activeTextField) != nil){
-            activeTextField.resignFirstResponder()
-        }
-    }
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?){}
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?){}
-    
-    override func touchesEstimatedPropertiesUpdated(_ touches: Set<UITouch>){}
-    
-}
+
 

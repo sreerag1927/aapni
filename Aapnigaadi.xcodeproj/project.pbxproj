@@ -24,6 +24,8 @@
 		CA8054C922CD260900E89D0A /* AapnigaadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8054C822CD260900E89D0A /* AapnigaadiTests.swift */; };
 		CA8054D422CD260900E89D0A /* AapnigaadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8054D322CD260900E89D0A /* AapnigaadiUITests.swift */; };
 		CA8054E322CD26E600E89D0A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8054E222CD26E600E89D0A /* 1.jpg */; };
+		CA881ED722D7AFE0004CE6E8 /* normalTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA881ED622D7AFE0004CE6E8 /* normalTripViewController.swift */; };
+		CA881ED922D7B11D004CE6E8 /* dateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA881ED822D7B11D004CE6E8 /* dateViewController.swift */; };
 		CA893CB222D508DF00014612 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA893CB122D508DF00014612 /* loginViewController.swift */; };
 		CA893CB422D50F2400014612 /* forgetpassword.png in Resources */ = {isa = PBXBuildFile; fileRef = CA893CB322D50F2400014612 /* forgetpassword.png */; };
 		CA9B98DC22D6530100A1B65B /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B98DB22D6530100A1B65B /* user.swift */; };
@@ -86,6 +88,8 @@
 		CA8054D322CD260900E89D0A /* AapnigaadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AapnigaadiUITests.swift; sourceTree = "<group>"; };
 		CA8054D522CD260900E89D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA8054E222CD26E600E89D0A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CA881ED622D7AFE0004CE6E8 /* normalTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = normalTripViewController.swift; sourceTree = "<group>"; };
+		CA881ED822D7B11D004CE6E8 /* dateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateViewController.swift; sourceTree = "<group>"; };
 		CA893CB122D508DF00014612 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		CA893CB322D50F2400014612 /* forgetpassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forgetpassword.png; sourceTree = "<group>"; };
 		CA9B98DB22D6530100A1B65B /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 				CA9B98DB22D6530100A1B65B /* user.swift */,
 				CA8054E122CD26BC00E89D0A /* Asset */,
 				CA8054B522CD260200E89D0A /* ViewController.swift */,
+				CA881ED622D7AFE0004CE6E8 /* normalTripViewController.swift */,
+				CA881ED822D7B11D004CE6E8 /* dateViewController.swift */,
 				CA893CB122D508DF00014612 /* loginViewController.swift */,
 				CA784A3222D3AA3E00F74B12 /* BaseViewController.swift */,
 				CA8054B722CD260200E89D0A /* Main.storyboard */,
@@ -418,7 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA881ED922D7B11D004CE6E8 /* dateViewController.swift in Sources */,
 				CAAAD16F22CE73B600F5D468 /* registerViewController.swift in Sources */,
+				CA881ED722D7AFE0004CE6E8 /* normalTripViewController.swift in Sources */,
 				CA784A3322D3AA3E00F74B12 /* BaseViewController.swift in Sources */,
 				CA9B98DC22D6530100A1B65B /* user.swift in Sources */,
 				CA8054B622CD260200E89D0A /* ViewController.swift in Sources */,

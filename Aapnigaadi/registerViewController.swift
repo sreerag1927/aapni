@@ -8,7 +8,8 @@
 
 import UIKit
 import Alamofire
-class registerViewController: BaseViewController {
+@available(iOS 10.0, *)
+class registerViewController: BaseViewController,UIGestureRecognizerDelegate {
 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var scroll_view: UIScrollView!
@@ -44,7 +45,18 @@ class registerViewController: BaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         setUp()
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
+        if((activeTextField) != nil){
+            activeTextField.resignFirstResponder()
+        }
+    }
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?){}
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?){}
+    
+    override func touchesEstimatedPropertiesUpdated(_ touches: Set<UITouch>){}
     func setUp(){
+        
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(sender:)), name:UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(sender:)), name:UIResponder.keyboardWillHideNotification, object: nil)
         self.userNameView.layer.cornerRadius = self.userNameView.frame.height / 2
@@ -156,6 +168,7 @@ class registerViewController: BaseViewController {
         self.scroll_view.contentInset = contentInset
     }
 }
+@available(iOS 10.0, *)
 extension registerViewController:UITextFieldDelegate{
     public func textFieldDidBeginEditing(_ textField: UITextField){
         activeTextField = textField
@@ -184,16 +197,4 @@ extension registerViewController:UITextFieldDelegate{
         }
     }
 }
-extension registerViewController:UIGestureRecognizerDelegate{
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?){
-        if((activeTextField) != nil){
-            activeTextField.resignFirstResponder()
-        }
-    }
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?){}
-    
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?){}
-    
-    override func touchesEstimatedPropertiesUpdated(_ touches: Set<UITouch>){}
-    
-}
+
